@@ -4,9 +4,10 @@
   <h1>
     Time until Artifact is out
   </h1>
+  <countdown [config]="{stopTime: date }">$!d!:$!h!:$!m!:$!s!</countdown>
 
-  <countdown [config]="{stopTime: 1543384800000}">$!d!:$!h!:$!m!:$!s!</countdown>
 </div>
+
 </body>
 <router-outlet></router-outlet>
 
